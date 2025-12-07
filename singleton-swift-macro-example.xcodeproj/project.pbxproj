@@ -589,8 +589,8 @@
 			repositoryURL = "https://github.com/mikekppp/singleton-swift-macro-mikekppp";
 			requirement = {
 				kind = versionRange;
-				maximumVersion = 2.0.0;
-				minimumVersion = 1.0.0;
+				maximumVersion = 3.0.0;
+				minimumVersion = 2.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

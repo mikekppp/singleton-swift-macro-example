@@ -16,6 +16,9 @@ public final class SwiftTestClass {
 	func returnString1() -> String {
 		return testStr
 	}
+	
+	func privateInit() {
+	}
 }
 
 
@@ -26,6 +29,9 @@ public struct SwiftTestStruct {
 	func returnString2() -> String {
 		return testStr
 	}
+	
+	func privateInit() {
+	}
 }
 
 @Singleton
@@ -34,6 +40,9 @@ public final actor SwiftTestActor {
 	
 	func returnString3() -> String {
 		return testStr
+	}
+	
+	func privateInit() {
 	}
 }
 
